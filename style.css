@@ -1,0 +1,229 @@
+
+
+/* basic css */
+
+
+body,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.grybg{
+    background-color: #f9fafb;
+}
+/***** basic end *****/
+
+
+.text-top h5{
+    color: #e73c3e;
+}
+.text-top h1{
+    padding: 10px 0;
+}
+.text-top p{
+    color: #6a6060;
+}
+
+body{
+    background-color: #f9fafb;
+}
+
+/* --------Tao section css ------- */
+
+
+ .services-tab-item {}
+ .services-tab-item li{
+     flex: 1 1 auto;
+ }
+ .services-tab-item span i{
+     font-size: 35px;
+     width: 80px;
+     height: 80px;
+     background-color: #fff;
+     border-radius: 50px;
+     line-height: 80px;
+     color: #666;
+ }
+ .services-tab-item li a strong{
+    color: #111111;
+    font-size: 20px;
+    
+ }
+ .services-tab-item li a.active span i{
+     color: #e73c3e;
+ }
+ .services-tab-item li a.active{
+     position: relative;
+ }
+ .services-tab-item li a.active::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 156px;
+    left: 13px;
+    top: 141px;
+    background-color:  #e73c3e;
+ }
+  
+ .services-tab-item li{
+     position: relative;
+ }
+   
+ 
+ 
+.tap-containt-text{}
+.tap-containt-text h2{}
+.tap-containt-text  p{
+    color: #666;
+    font-weight: 400;
+}
+
+.list li {
+    color: #666;
+    list-style: none;
+    position: relative;
+    margin-left: -6px;
+}
+.list li::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:#e73c3e;
+    border-radius: 50%;
+    line-height: 10px;
+    left: -22px;
+    top: 7px;
+}
+
+
+/* testimonial css */
+
+
+.finix-text h6{
+    color: #e73c3e;
+}
+.finix-text h2 {
+    color: #111111;
+    font-size: 34px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.finix-text p{
+    color: #666;
+}
+.tesntimonial-section{}
+.testimonial-content{}
+.testimonial-content p {
+    font-size: 23px;
+}
+.client-details{}
+.client-details h5 {
+    color: #e73a3e;
+    margin-bottom: 0;
+}
+.client-details p{}
+
+.testimonial-iamge{}
+.testimonial-iamge img{}
+.text-dangar{
+    color: #e73a3e;
+}
+.icon {
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    top: -133px;
+    left: 73px;
+    line-height: 80px;
+    transition: .5s;
+}
+.icon:hover{
+    background-color: #e73a3e;
+    color: #ffffff;
+}
+
+
+/* clinte */
+
+
+.team-member{}
+.member-image{
+    position: relative;
+}
+.member-image img{
+    width: 100%;
+    height: auto;
+}
+.member-social-profile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.member-social-profile ul {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.member-social-profile ul li{
+    display: inline-block;
+
+    transition: .5s ease-in-out;
+    transform: translateY(45px);
+    opacity: 0;
+    visibility: hidden;
+}
+.member-image:hover .member-social-profile ul li{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.member-image .member-social-profile ul li:nth-child(1){
+    transition-delay: .2s;
+}
+.member-image .member-social-profile ul li:nth-child(2){
+    transition-delay: .3s;
+}
+.member-image .member-social-profile ul li:nth-child(3){
+    transition-delay: .4s;
+}
+.member-image .member-social-profile ul li:nth-child(4){
+    transition-delay: .5s;
+}
+.member-social-profile ul li a {
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background: #fff;
+	border-radius: 50%;
+    line-height: 40px;
+    color: #444;
+    transition: .4s;
+}
+.member-social-profile ul li a:hover{
+    color: #fff;
+    background-color: red;
+}
+.member-content {
+    margin-top: 28px;
+}
+.member-content h4 {
+    color: #e73a3e;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.member-content p {
+    color: #666;
+}
